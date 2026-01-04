@@ -1,0 +1,18 @@
+# --- 1. สำคัญที่สุด: ซ่อนกุญแจและรหัสผ่าน ---
+.streamlit/secrets.toml
+*.json
+
+# --- 2. ซ่อน Virtual Environment (โฟลเดอร์โปรแกรมจำลอง) ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- 3. ซ่อนไฟล์ขยะของ Python (Compiled files) ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 4. ไฟล์ขยะของระบบปฏิบัติการ (Mac/Windows) ---
+.DS_Store
+Thumbs.db
